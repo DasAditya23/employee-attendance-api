@@ -20,7 +20,6 @@ class EmployeeResponse(BaseModel):
 class UserCreate(BaseModel):
     email: EmailStr
     password: str
-    role: str = "employee"
     employee_id: Optional[int] = None
 
 
