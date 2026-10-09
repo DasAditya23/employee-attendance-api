@@ -1,6 +1,11 @@
 # Employee Attendance API
 
 A RESTful backend for tracking employee attendance, built with **FastAPI**, **SQLAlchemy**, and **JWT authentication**. Supports role-based access control (admin vs employee), automatic late detection, and date-range attendance queries.
+## 🔗 Live Demo
+
+**Try it:** [https://employee-attendance-api-cb2j.onrender.com/docs](https://employee-attendance-api-cb2j.onrender.com/docs)
+
+> ⚠️ Free tier: the service sleeps after 15 minutes of inactivity. First request takes 30–50 seconds to wake up.
 
 ## Features
 
